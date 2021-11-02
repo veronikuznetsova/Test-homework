@@ -1,0 +1,40 @@
+{
+  "name": "custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "jest --watchAll",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/veronikuznetsova/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronikuznetsova/webpack/issues"
+  },
+  "homepage": "https://github.com/veronikuznetsova/webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "jest": "^27.3.1",
+    "mini-css-extract-plugin": "^2.4.3",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "serve": "^12.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {}
+}
